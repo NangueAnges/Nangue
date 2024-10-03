@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(int argc, char** argv){
+unsigned int a,b,c,P,S;
+printf("entrer la valeur de la base du triangle");
+scanf("%d",&a);
+prinft("entrer la valeur de la hauteur de votre triangle");
+scanf("%d",&b);
+S=(a*b)/2;
+printf("entrer la valeur du troisième côté du triangle");
+scanf
