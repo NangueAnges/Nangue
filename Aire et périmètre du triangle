@@ -7,4 +7,8 @@ prinft("entrer la valeur de la hauteur de votre triangle");
 scanf("%d",&b);
 S=(a*b)/2;
 printf("entrer la valeur du troisième côté du triangle");
-scanf
+scanf("%d",&c);
+P=a+b+c;
+printf("la valeur de l'aire de ce triangle est %d et la valeur du périmètre est %d:",S,P);
+return 0;
+}
