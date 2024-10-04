@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(int argc, char** argv){
+int x,f,i;
+printf("entrer un nombre");
+scanf("%d",&x);
+   while(x<=0){
+   printf(" entrer un autre nombre");
+   }
+f=1;
+for(i=1;i<=x;i++){
+f=i*f;
+}
+printf("le factoriel de x est %d:", f);
+}
