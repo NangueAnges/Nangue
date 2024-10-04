@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(int argc, char** argv){
+unsigned int a,b,P,S;
+printf("entrer la longueur du rectangle");
+scanf("%d",&a);
+prinft("entrer la largeur du rectangle");
+scanf("%d",&b);
+S=(a*b);
+P=(a+b)*2;
+printf("la valeur de l'aire de ce rectangle est %d et la valeur du périmètre est %d:",S,P);
+return 0;
+}
