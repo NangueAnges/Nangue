@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+float r,S,P;
+const float pi=3.14;
+printf("entrer le rayon du cercle");
+scanf("%f",&r);
+P=r*2*pi;
+S=r*r*pi;
+printf("l'aire du cercle est %f et le périmètre est %f:",S,P);
+return 0;
+}
