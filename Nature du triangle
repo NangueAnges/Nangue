@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+unsigned int a,b,c;
+printf("entrer la valeur du premier côté ");
+scanf("%d",&a);
+printf("entrer la valeur du deuxième côté ");
+scanf("%d",&b);
+printf("entrer la valeur du troisième côté ");
+scanf("%d",&c);
+   if((a!=b && b==c) || (a==b && b!=c) || (a==c && b!=c)){
+      printf(" c'est un triangle isocèle");
+   }else
+   if(a==b && b==c){
+          printf("c'est un triangle équilatéral");
+   }
+   else{
+           printf("ce triangle est un triangle scalène");
+   }
+return 0;
+}
