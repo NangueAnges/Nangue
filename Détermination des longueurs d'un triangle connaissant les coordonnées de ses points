@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(int argc,char** argv){
+float AB, BC, AC, xa,xb,xc,ya,yb,yc;
+printf("soit A,B et C les trois points d'un triangle");
+printf("entrer l'abscisse xa de A");
+scanf("%f",&xa);
+printf("entrer l'ordonnée ya de A");
+scanf("%f",&ya);
+printf("entrer l'abscisse xb de B");
+scanf("%f",&xb);
+printf("entrer l'ordonnée yb de B");
+scanf("%f",&yb);
+printf("entrer l'abscisse xc de C");
+scanf("%f",&xc);
+printf("entrer l'ordonnée yc de C");
+scanf("%f",&yc);
+AB=sqrt(((xb-xa)*(xb-xa))+((yb-ya)*(yb-ya)));
+BC=sqrt(((xc-xb)*(xc-xb))+((yc-yb)*(yc-yb)));
+AC=sqrt(((xc-xa)*(xc-xa))+((yc-ya)*(yc-ya)));
+printf("les longueurs de ses cotés sont respectivement %f,%f et %f:",AB,BC,AC);
+return 0;
+}
+
+    
