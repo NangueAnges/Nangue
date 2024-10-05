@@ -3,7 +3,7 @@ int main(int argc, char** argv){
 unsigned int a,b,P,S;
 printf("entrer la longueur du rectangle");
 scanf("%d",&a);
-prinft("entrer la largeur du rectangle");
+printf("entrer la largeur du rectangle");
 scanf("%d",&b);
 S=(a*b);
 P=(a+b)*2;
